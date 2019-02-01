@@ -2,15 +2,12 @@
     "name": "static",
     "version": 2,
     "alias": "static.rentier.io",
-    "headers": [
+    "routes": [
         {
-            "source": "**",
-            "headers": [
-                {
-                    "key": "test",
-                    "value": "header"
-                }
-            ]
+            "src": "/.*",
+            "headers": {
+                "test-header": "works"
+            }
         }
     ]
 }
