@@ -4,7 +4,7 @@
     "alias": "static.rentier.io",
     "routes": [
         {
-            "src": "(^/.*.(jpg|png|svg))",
+            "src": "(^/.*.(jpg|png|svg|md))",
             "dest": "/$1",
             "headers": {
                 "test-header": "works"
