@@ -2,17 +2,15 @@
     "name": "static",
     "version": 2,
     "alias": "static.rentier.io",
-    "static": {
-        "headers": [
-            {
-                "source": "**",
-                "headers": [
-                    {
-                        "key": "test",
-                        "value": "header"
-                    }
-                ]
-            }
-        ]
-    }
+    "headers": [
+        {
+            "source": "**",
+            "headers": [
+                {
+                    "key": "test",
+                    "value": "header"
+                }
+            ]
+        }
+    ]
 }
