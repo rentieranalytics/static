@@ -1,14 +1,5 @@
 {
     "name": "static",
     "version": 2,
-    "alias": "static.rentier.io",
-    "routes": [
-        {
-            "src": "^/(.*.(jpg|png|svg))",
-            "dest": "/$1",
-            "headers": {
-                "cache-control": "s-maxage=604801"
-            }
-        }
-    ]
+    "alias": "static.rentier.io"
 }
