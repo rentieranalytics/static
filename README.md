@@ -1,6 +1,6 @@
 # static
 
-Common static files needed in rentier.
+Common static files needed in Rentier.
 
 - Before make any changes to existing files, make sure (check in all repositories) is the file isn't used.
 - Every commited changes to `master` branch will be automatically deployed and available at https://static.rentier.io in few seconds.
