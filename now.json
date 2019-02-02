@@ -4,7 +4,7 @@
     "alias": "static.rentier.io",
     "routes": [
         {
-            "src": "^/(.*.(jpg|png|svg|md))",
+            "src": "^/(.*.(jpg|png|svg))",
             "dest": "/$1",
             "headers": {
                 "cache-control": "s-maxage=604800"
